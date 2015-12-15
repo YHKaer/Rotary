@@ -10,29 +10,9 @@
 		5585F6AB1C1FECE5001E3F83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5585F6AA1C1FECE5001E3F83 /* main.m */; };
 		5585F6AE1C1FECE5001E3F83 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5585F6AD1C1FECE5001E3F83 /* AppDelegate.m */; };
 		5585F6B11C1FECE5001E3F83 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5585F6B01C1FECE5001E3F83 /* ViewController.m */; };
-		5585F6B41C1FECE5001E3F83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5585F6B21C1FECE5001E3F83 /* Main.storyboard */; };
 		5585F6B61C1FECE5001E3F83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5585F6B51C1FECE5001E3F83 /* Assets.xcassets */; };
 		5585F6B91C1FECE5001E3F83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5585F6B71C1FECE5001E3F83 /* LaunchScreen.storyboard */; };
-		5585F6C41C1FECE5001E3F83 /* RotaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5585F6C31C1FECE5001E3F83 /* RotaryTests.m */; };
-		5585F6CF1C1FECE5001E3F83 /* RotaryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5585F6CE1C1FECE5001E3F83 /* RotaryUITests.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		5585F6C01C1FECE5001E3F83 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5585F69E1C1FECE5001E3F83 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5585F6A51C1FECE5001E3F83;
-			remoteInfo = Rotary;
-		};
-		5585F6CB1C1FECE5001E3F83 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5585F69E1C1FECE5001E3F83 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5585F6A51C1FECE5001E3F83;
-			remoteInfo = Rotary;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		5585F6A61C1FECE5001E3F83 /* Rotary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rotary.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,34 +21,13 @@
 		5585F6AD1C1FECE5001E3F83 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5585F6AF1C1FECE5001E3F83 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5585F6B01C1FECE5001E3F83 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		5585F6B31C1FECE5001E3F83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5585F6B51C1FECE5001E3F83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5585F6B81C1FECE5001E3F83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5585F6BA1C1FECE5001E3F83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5585F6BF1C1FECE5001E3F83 /* RotaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RotaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5585F6C31C1FECE5001E3F83 /* RotaryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RotaryTests.m; sourceTree = "<group>"; };
-		5585F6C51C1FECE5001E3F83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5585F6CA1C1FECE5001E3F83 /* RotaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RotaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5585F6CE1C1FECE5001E3F83 /* RotaryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RotaryUITests.m; sourceTree = "<group>"; };
-		5585F6D01C1FECE5001E3F83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		5585F6A31C1FECE5001E3F83 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5585F6BC1C1FECE5001E3F83 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5585F6C71C1FECE5001E3F83 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -82,8 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				5585F6A81C1FECE5001E3F83 /* Rotary */,
-				5585F6C21C1FECE5001E3F83 /* RotaryTests */,
-				5585F6CD1C1FECE5001E3F83 /* RotaryUITests */,
 				5585F6A71C1FECE5001E3F83 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,8 +49,6 @@
 			isa = PBXGroup;
 			children = (
 				5585F6A61C1FECE5001E3F83 /* Rotary.app */,
-				5585F6BF1C1FECE5001E3F83 /* RotaryTests.xctest */,
-				5585F6CA1C1FECE5001E3F83 /* RotaryUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,7 +60,6 @@
 				5585F6AD1C1FECE5001E3F83 /* AppDelegate.m */,
 				5585F6AF1C1FECE5001E3F83 /* ViewController.h */,
 				5585F6B01C1FECE5001E3F83 /* ViewController.m */,
-				5585F6B21C1FECE5001E3F83 /* Main.storyboard */,
 				5585F6B51C1FECE5001E3F83 /* Assets.xcassets */,
 				5585F6B71C1FECE5001E3F83 /* LaunchScreen.storyboard */,
 				5585F6BA1C1FECE5001E3F83 /* Info.plist */,
@@ -120,24 +74,6 @@
 				5585F6AA1C1FECE5001E3F83 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		5585F6C21C1FECE5001E3F83 /* RotaryTests */ = {
-			isa = PBXGroup;
-			children = (
-				5585F6C31C1FECE5001E3F83 /* RotaryTests.m */,
-				5585F6C51C1FECE5001E3F83 /* Info.plist */,
-			);
-			path = RotaryTests;
-			sourceTree = "<group>";
-		};
-		5585F6CD1C1FECE5001E3F83 /* RotaryUITests */ = {
-			isa = PBXGroup;
-			children = (
-				5585F6CE1C1FECE5001E3F83 /* RotaryUITests.m */,
-				5585F6D01C1FECE5001E3F83 /* Info.plist */,
-			);
-			path = RotaryUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,42 +96,6 @@
 			productReference = 5585F6A61C1FECE5001E3F83 /* Rotary.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5585F6BE1C1FECE5001E3F83 /* RotaryTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5585F6D61C1FECE5001E3F83 /* Build configuration list for PBXNativeTarget "RotaryTests" */;
-			buildPhases = (
-				5585F6BB1C1FECE5001E3F83 /* Sources */,
-				5585F6BC1C1FECE5001E3F83 /* Frameworks */,
-				5585F6BD1C1FECE5001E3F83 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5585F6C11C1FECE5001E3F83 /* PBXTargetDependency */,
-			);
-			name = RotaryTests;
-			productName = RotaryTests;
-			productReference = 5585F6BF1C1FECE5001E3F83 /* RotaryTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		5585F6C91C1FECE5001E3F83 /* RotaryUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5585F6D91C1FECE5001E3F83 /* Build configuration list for PBXNativeTarget "RotaryUITests" */;
-			buildPhases = (
-				5585F6C61C1FECE5001E3F83 /* Sources */,
-				5585F6C71C1FECE5001E3F83 /* Frameworks */,
-				5585F6C81C1FECE5001E3F83 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5585F6CC1C1FECE5001E3F83 /* PBXTargetDependency */,
-			);
-			name = RotaryUITests;
-			productName = RotaryUITests;
-			productReference = 5585F6CA1C1FECE5001E3F83 /* RotaryUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -207,14 +107,6 @@
 				TargetAttributes = {
 					5585F6A51C1FECE5001E3F83 = {
 						CreatedOnToolsVersion = 7.1.1;
-					};
-					5585F6BE1C1FECE5001E3F83 = {
-						CreatedOnToolsVersion = 7.1.1;
-						TestTargetID = 5585F6A51C1FECE5001E3F83;
-					};
-					5585F6C91C1FECE5001E3F83 = {
-						CreatedOnToolsVersion = 7.1.1;
-						TestTargetID = 5585F6A51C1FECE5001E3F83;
 					};
 				};
 			};
@@ -232,8 +124,6 @@
 			projectRoot = "";
 			targets = (
 				5585F6A51C1FECE5001E3F83 /* Rotary */,
-				5585F6BE1C1FECE5001E3F83 /* RotaryTests */,
-				5585F6C91C1FECE5001E3F83 /* RotaryUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -245,21 +135,6 @@
 			files = (
 				5585F6B91C1FECE5001E3F83 /* LaunchScreen.storyboard in Resources */,
 				5585F6B61C1FECE5001E3F83 /* Assets.xcassets in Resources */,
-				5585F6B41C1FECE5001E3F83 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5585F6BD1C1FECE5001E3F83 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5585F6C81C1FECE5001E3F83 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,46 +151,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5585F6BB1C1FECE5001E3F83 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5585F6C41C1FECE5001E3F83 /* RotaryTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5585F6C61C1FECE5001E3F83 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5585F6CF1C1FECE5001E3F83 /* RotaryUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		5585F6C11C1FECE5001E3F83 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5585F6A51C1FECE5001E3F83 /* Rotary */;
-			targetProxy = 5585F6C01C1FECE5001E3F83 /* PBXContainerItemProxy */;
-		};
-		5585F6CC1C1FECE5001E3F83 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5585F6A51C1FECE5001E3F83 /* Rotary */;
-			targetProxy = 5585F6CB1C1FECE5001E3F83 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		5585F6B21C1FECE5001E3F83 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5585F6B31C1FECE5001E3F83 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5585F6B71C1FECE5001E3F83 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -431,54 +269,6 @@
 			};
 			name = Release;
 		};
-		5585F6D71C1FECE5001E3F83 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = RotaryTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = company.RotaryTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rotary.app/Rotary";
-			};
-			name = Debug;
-		};
-		5585F6D81C1FECE5001E3F83 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = RotaryTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = company.RotaryTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rotary.app/Rotary";
-			};
-			name = Release;
-		};
-		5585F6DA1C1FECE5001E3F83 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = RotaryUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = company.RotaryUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = Rotary;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		5585F6DB1C1FECE5001E3F83 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = RotaryUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = company.RotaryUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = Rotary;
-				USES_XCTRUNNER = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -498,22 +288,7 @@
 				5585F6D51C1FECE5001E3F83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		5585F6D61C1FECE5001E3F83 /* Build configuration list for PBXNativeTarget "RotaryTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5585F6D71C1FECE5001E3F83 /* Debug */,
-				5585F6D81C1FECE5001E3F83 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		5585F6D91C1FECE5001E3F83 /* Build configuration list for PBXNativeTarget "RotaryUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5585F6DA1C1FECE5001E3F83 /* Debug */,
-				5585F6DB1C1FECE5001E3F83 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
