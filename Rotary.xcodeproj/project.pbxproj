@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55087C8A1C21923200608DDF /* Colours.m in Sources */ = {isa = PBXBuildFile; fileRef = 55087C871C21923200608DDF /* Colours.m */; };
+		55087C8B1C21923200608DDF /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 55087C891C21923200608DDF /* UIView+Frame.m */; };
+		55087C9A1C219E2500608DDF /* ORBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55087C991C219E2500608DDF /* ORBViewController.m */; };
+		55087C9E1C219EAA00608DDF /* ORBTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55087C9D1C219EAA00608DDF /* ORBTableViewController.m */; };
+		55087CA11C219ED200608DDF /* ORBNimbusTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55087CA01C219ED200608DDF /* ORBNimbusTableViewController.m */; };
+		55087CA41C219F9200608DDF /* ORCellCatalog.m in Sources */ = {isa = PBXBuildFile; fileRef = 55087CA31C219F9200608DDF /* ORCellCatalog.m */; };
+		55087CA71C21A08000608DDF /* ORSectionCellObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 55087CA61C21A08000608DDF /* ORSectionCellObject.m */; };
+		55087CAA1C21A0FE00608DDF /* ORHttpResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 55087CA91C21A0FE00608DDF /* ORHttpResponse.m */; };
+		55087CAD1C21A18200608DDF /* ORHttpSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 55087CAC1C21A18200608DDF /* ORHttpSessionManager.m */; };
 		5585F6AB1C1FECE5001E3F83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5585F6AA1C1FECE5001E3F83 /* main.m */; };
 		5585F6AE1C1FECE5001E3F83 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5585F6AD1C1FECE5001E3F83 /* AppDelegate.m */; };
 		5585F6B61C1FECE5001E3F83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5585F6B51C1FECE5001E3F83 /* Assets.xcassets */; };
@@ -16,6 +25,27 @@
 
 /* Begin PBXFileReference section */
 		3FF574087CE641A1673F9291 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		55087C861C21923200608DDF /* Colours.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Colours.h; sourceTree = "<group>"; };
+		55087C871C21923200608DDF /* Colours.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Colours.m; sourceTree = "<group>"; };
+		55087C881C21923200608DDF /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		55087C891C21923200608DDF /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		55087C951C21941D00608DDF /* Rotary-PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Rotary-PrefixHeader.pch"; sourceTree = "<group>"; };
+		55087C961C2194EA00608DDF /* Macro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
+		55087C971C2194EA00608DDF /* MacroUrls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroUrls.h; sourceTree = "<group>"; };
+		55087C981C219E2500608DDF /* ORBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORBViewController.h; sourceTree = "<group>"; };
+		55087C991C219E2500608DDF /* ORBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORBViewController.m; sourceTree = "<group>"; };
+		55087C9C1C219EAA00608DDF /* ORBTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORBTableViewController.h; sourceTree = "<group>"; };
+		55087C9D1C219EAA00608DDF /* ORBTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORBTableViewController.m; sourceTree = "<group>"; };
+		55087C9F1C219ED200608DDF /* ORBNimbusTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORBNimbusTableViewController.h; sourceTree = "<group>"; };
+		55087CA01C219ED200608DDF /* ORBNimbusTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORBNimbusTableViewController.m; sourceTree = "<group>"; };
+		55087CA21C219F9200608DDF /* ORCellCatalog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORCellCatalog.h; sourceTree = "<group>"; };
+		55087CA31C219F9200608DDF /* ORCellCatalog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORCellCatalog.m; sourceTree = "<group>"; };
+		55087CA51C21A08000608DDF /* ORSectionCellObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSectionCellObject.h; sourceTree = "<group>"; };
+		55087CA61C21A08000608DDF /* ORSectionCellObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSectionCellObject.m; sourceTree = "<group>"; };
+		55087CA81C21A0FE00608DDF /* ORHttpResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORHttpResponse.h; sourceTree = "<group>"; };
+		55087CA91C21A0FE00608DDF /* ORHttpResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORHttpResponse.m; sourceTree = "<group>"; };
+		55087CAB1C21A18200608DDF /* ORHttpSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORHttpSessionManager.h; sourceTree = "<group>"; };
+		55087CAC1C21A18200608DDF /* ORHttpSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORHttpSessionManager.m; sourceTree = "<group>"; };
 		5585F6A61C1FECE5001E3F83 /* Rotary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rotary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5585F6AA1C1FECE5001E3F83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5585F6AC1C1FECE5001E3F83 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -47,6 +77,133 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		55087C821C21856900608DDF /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				55087C921C21926E00608DDF /* BaseClass */,
+				55087C8C1C21925400608DDF /* Model */,
+				55087C8E1C21925400608DDF /* Modual */,
+				55087C851C21923200608DDF /* Category */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		55087C831C2190C400608DDF /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		55087C841C2190CC00608DDF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		55087C851C21923200608DDF /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				55087C861C21923200608DDF /* Colours.h */,
+				55087C871C21923200608DDF /* Colours.m */,
+				55087C881C21923200608DDF /* UIView+Frame.h */,
+				55087C891C21923200608DDF /* UIView+Frame.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		55087C8C1C21925400608DDF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				55087C8D1C21925400608DDF /* HttpRequestManager */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		55087C8D1C21925400608DDF /* HttpRequestManager */ = {
+			isa = PBXGroup;
+			children = (
+				55087CA81C21A0FE00608DDF /* ORHttpResponse.h */,
+				55087CA91C21A0FE00608DDF /* ORHttpResponse.m */,
+				55087CAB1C21A18200608DDF /* ORHttpSessionManager.h */,
+				55087CAC1C21A18200608DDF /* ORHttpSessionManager.m */,
+			);
+			path = HttpRequestManager;
+			sourceTree = "<group>";
+		};
+		55087C8E1C21925400608DDF /* Modual */ = {
+			isa = PBXGroup;
+			children = (
+				55087C8F1C21925400608DDF /* Home */,
+				55087C901C21925400608DDF /* Login */,
+				55087C911C21925400608DDF /* Register */,
+			);
+			path = Modual;
+			sourceTree = "<group>";
+		};
+		55087C8F1C21925400608DDF /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		55087C901C21925400608DDF /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		55087C911C21925400608DDF /* Register */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		55087C921C21926E00608DDF /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				55087C931C21926E00608DDF /* BaseController */,
+				55087C941C21926E00608DDF /* TableViewCell */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		55087C931C21926E00608DDF /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				55087C981C219E2500608DDF /* ORBViewController.h */,
+				55087C991C219E2500608DDF /* ORBViewController.m */,
+				55087C9B1C219E5B00608DDF /* TableViewController */,
+			);
+			path = BaseController;
+			sourceTree = "<group>";
+		};
+		55087C941C21926E00608DDF /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				55087CA21C219F9200608DDF /* ORCellCatalog.h */,
+				55087CA31C219F9200608DDF /* ORCellCatalog.m */,
+				55087CA51C21A08000608DDF /* ORSectionCellObject.h */,
+				55087CA61C21A08000608DDF /* ORSectionCellObject.m */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		55087C9B1C219E5B00608DDF /* TableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				55087C9C1C219EAA00608DDF /* ORBTableViewController.h */,
+				55087C9D1C219EAA00608DDF /* ORBTableViewController.m */,
+				55087C9F1C219ED200608DDF /* ORBNimbusTableViewController.h */,
+				55087CA01C219ED200608DDF /* ORBNimbusTableViewController.m */,
+			);
+			path = TableViewController;
+			sourceTree = "<group>";
+		};
 		5585F69D1C1FECE5001E3F83 = {
 			isa = PBXGroup;
 			children = (
@@ -70,6 +227,9 @@
 			children = (
 				5585F6AC1C1FECE5001E3F83 /* AppDelegate.h */,
 				5585F6AD1C1FECE5001E3F83 /* AppDelegate.m */,
+				55087C841C2190CC00608DDF /* Resources */,
+				55087C831C2190C400608DDF /* Vendor */,
+				55087C821C21856900608DDF /* Class */,
 				5585F6A91C1FECE5001E3F83 /* Supporting Files */,
 			);
 			path = Rotary;
@@ -82,6 +242,9 @@
 				5585F6B71C1FECE5001E3F83 /* LaunchScreen.storyboard */,
 				5585F6BA1C1FECE5001E3F83 /* Info.plist */,
 				5585F6AA1C1FECE5001E3F83 /* main.m */,
+				55087C951C21941D00608DDF /* Rotary-PrefixHeader.pch */,
+				55087C961C2194EA00608DDF /* Macro.h */,
+				55087C971C2194EA00608DDF /* MacroUrls.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -215,7 +378,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55087C8B1C21923200608DDF /* UIView+Frame.m in Sources */,
+				55087CA71C21A08000608DDF /* ORSectionCellObject.m in Sources */,
+				55087C9E1C219EAA00608DDF /* ORBTableViewController.m in Sources */,
+				55087CAD1C21A18200608DDF /* ORHttpSessionManager.m in Sources */,
+				55087CA11C219ED200608DDF /* ORBNimbusTableViewController.m in Sources */,
+				55087C9A1C219E2500608DDF /* ORBViewController.m in Sources */,
 				5585F6AE1C1FECE5001E3F83 /* AppDelegate.m in Sources */,
+				55087C8A1C21923200608DDF /* Colours.m in Sources */,
+				55087CAA1C21A0FE00608DDF /* ORHttpResponse.m in Sources */,
+				55087CA41C219F9200608DDF /* ORCellCatalog.m in Sources */,
 				5585F6AB1C1FECE5001E3F83 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -321,6 +493,7 @@
 			baseConfigurationReference = 72EB7DABF298AA5258752C71 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$SRCROOT/Rotary/Rotary-PrefixHeader.pch";
 				INFOPLIST_FILE = Rotary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = company.Rotary;
@@ -333,6 +506,7 @@
 			baseConfigurationReference = 3FF574087CE641A1673F9291 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$SRCROOT/Rotary/Rotary-PrefixHeader.pch";
 				INFOPLIST_FILE = Rotary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = company.Rotary;
