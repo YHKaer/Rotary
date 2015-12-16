@@ -1,0 +1,30 @@
+//
+//  Rotary-PrefixHeader.pch
+//  Rotary
+//
+//  Created by oscar on 15/12/16.
+//  Copyright © 2015年 oscar. All rights reserved.
+//
+
+#ifndef Rotary_PrefixHeader_pch
+#define Rotary_PrefixHeader_pch
+
+#pragma mark - 宏定义
+#import "Macro.h"
+
+#pragma MARK - URL
+#import "MacroUrls.h"
+
+#pragma mark - pods
+/// Nimbus 相关
+#import <NimbusModels.h>
+#import <Nimbus/NimbusCore+Additions.h>
+
+/// 自动布局 masonry
+#import <Masonry.h>
+
+#pragma mark - category
+#import "UIView+Frame.h"
+#import "Colours.h"
+
+#endif /* Rotary_PrefixHeader_pch */
