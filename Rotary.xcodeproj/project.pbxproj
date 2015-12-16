@@ -98,6 +98,7 @@
 		55087C841C2190CC00608DDF /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				55087CAE1C21B73300608DDF /* Images */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -202,6 +203,13 @@
 				55087CA01C219ED200608DDF /* ORBNimbusTableViewController.m */,
 			);
 			path = TableViewController;
+			sourceTree = "<group>";
+		};
+		55087CAE1C21B73300608DDF /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 		5585F69D1C1FECE5001E3F83 = {
@@ -493,10 +501,13 @@
 			baseConfigurationReference = 72EB7DABF298AA5258752C71 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: MING CHI TSAI (9K2G5BG9G6)";
+				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "$SRCROOT/Rotary/Rotary-PrefixHeader.pch";
 				INFOPLIST_FILE = Rotary/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = company.Rotary;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ourRotary.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -506,10 +517,13 @@
 			baseConfigurationReference = 3FF574087CE641A1673F9291 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: MING CHI TSAI (9K2G5BG9G6)";
+				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "$SRCROOT/Rotary/Rotary-PrefixHeader.pch";
 				INFOPLIST_FILE = Rotary/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = company.Rotary;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ourRotary.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
