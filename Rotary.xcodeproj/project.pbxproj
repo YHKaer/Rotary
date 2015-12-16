@@ -9,21 +9,22 @@
 /* Begin PBXBuildFile section */
 		5585F6AB1C1FECE5001E3F83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5585F6AA1C1FECE5001E3F83 /* main.m */; };
 		5585F6AE1C1FECE5001E3F83 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5585F6AD1C1FECE5001E3F83 /* AppDelegate.m */; };
-		5585F6B11C1FECE5001E3F83 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5585F6B01C1FECE5001E3F83 /* ViewController.m */; };
 		5585F6B61C1FECE5001E3F83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5585F6B51C1FECE5001E3F83 /* Assets.xcassets */; };
 		5585F6B91C1FECE5001E3F83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5585F6B71C1FECE5001E3F83 /* LaunchScreen.storyboard */; };
+		DDBAF31451A5C8172EA2FDE0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62C417343DA87562E0952571 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3FF574087CE641A1673F9291 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		5585F6A61C1FECE5001E3F83 /* Rotary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rotary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5585F6AA1C1FECE5001E3F83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5585F6AC1C1FECE5001E3F83 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5585F6AD1C1FECE5001E3F83 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5585F6AF1C1FECE5001E3F83 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5585F6B01C1FECE5001E3F83 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5585F6B51C1FECE5001E3F83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5585F6B81C1FECE5001E3F83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5585F6BA1C1FECE5001E3F83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62C417343DA87562E0952571 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		72EB7DABF298AA5258752C71 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +32,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDBAF31451A5C8172EA2FDE0 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F209E501B7F291B245292A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62C417343DA87562E0952571 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5585F69D1C1FECE5001E3F83 = {
 			isa = PBXGroup;
 			children = (
 				5585F6A81C1FECE5001E3F83 /* Rotary */,
 				5585F6A71C1FECE5001E3F83 /* Products */,
+				D1CF2B6D21DDBF43D21014C7 /* Pods */,
+				2F209E501B7F291B245292A0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,11 +70,6 @@
 			children = (
 				5585F6AC1C1FECE5001E3F83 /* AppDelegate.h */,
 				5585F6AD1C1FECE5001E3F83 /* AppDelegate.m */,
-				5585F6AF1C1FECE5001E3F83 /* ViewController.h */,
-				5585F6B01C1FECE5001E3F83 /* ViewController.m */,
-				5585F6B51C1FECE5001E3F83 /* Assets.xcassets */,
-				5585F6B71C1FECE5001E3F83 /* LaunchScreen.storyboard */,
-				5585F6BA1C1FECE5001E3F83 /* Info.plist */,
 				5585F6A91C1FECE5001E3F83 /* Supporting Files */,
 			);
 			path = Rotary;
@@ -71,9 +78,21 @@
 		5585F6A91C1FECE5001E3F83 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5585F6B51C1FECE5001E3F83 /* Assets.xcassets */,
+				5585F6B71C1FECE5001E3F83 /* LaunchScreen.storyboard */,
+				5585F6BA1C1FECE5001E3F83 /* Info.plist */,
 				5585F6AA1C1FECE5001E3F83 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D1CF2B6D21DDBF43D21014C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72EB7DABF298AA5258752C71 /* Pods.debug.xcconfig */,
+				3FF574087CE641A1673F9291 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,9 +102,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5585F6D31C1FECE5001E3F83 /* Build configuration list for PBXNativeTarget "Rotary" */;
 			buildPhases = (
+				768E9CCF519340237E12BF51 /* Check Pods Manifest.lock */,
 				5585F6A21C1FECE5001E3F83 /* Sources */,
 				5585F6A31C1FECE5001E3F83 /* Frameworks */,
 				5585F6A41C1FECE5001E3F83 /* Resources */,
+				BFB060CD6D41F8EF8955B37E /* Embed Pods Frameworks */,
+				F8D409298D3D14F988D6551A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -140,12 +162,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		768E9CCF519340237E12BF51 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BFB060CD6D41F8EF8955B37E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8D409298D3D14F988D6551A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5585F6A21C1FECE5001E3F83 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5585F6B11C1FECE5001E3F83 /* ViewController.m in Sources */,
 				5585F6AE1C1FECE5001E3F83 /* AppDelegate.m in Sources */,
 				5585F6AB1C1FECE5001E3F83 /* main.m in Sources */,
 			);
@@ -249,6 +318,7 @@
 		};
 		5585F6D41C1FECE5001E3F83 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72EB7DABF298AA5258752C71 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Rotary/Info.plist;
@@ -260,6 +330,7 @@
 		};
 		5585F6D51C1FECE5001E3F83 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FF574087CE641A1673F9291 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Rotary/Info.plist;
