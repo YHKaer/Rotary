@@ -8,6 +8,9 @@
 
 #import "AppDelegate.h"
 
+#import "ORYindaoViewController.h"
+#import "ORHomeViewController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -20,13 +23,24 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
-    [self showHomeViewController];
+    [self showYindaoViewController];
     
     return YES;
 }
 
+/// 显示主页
 - (void)showHomeViewController{
-    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[UIViewController new]];
+    ORHomeViewController *vc = [[ORHomeViewController alloc] init];
+    self.window.rootViewController = vc;
+}
+
+/// 显示引导页
+- (void)showYindaoViewController{
+    ORYindaoViewController *vc = [[ORYindaoViewController alloc] init];
+    self.window.rootViewController = vc;
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [self showHomeViewController];
+    });
 }
 
 @end
