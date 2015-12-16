@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55087C8A1C21923200608DDF /* Colours.m in Sources */ = {isa = PBXBuildFile; fileRef = 55087C871C21923200608DDF /* Colours.m */; };
+		55087C8B1C21923200608DDF /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 55087C891C21923200608DDF /* UIView+Frame.m */; };
 		5585F6AB1C1FECE5001E3F83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5585F6AA1C1FECE5001E3F83 /* main.m */; };
 		5585F6AE1C1FECE5001E3F83 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5585F6AD1C1FECE5001E3F83 /* AppDelegate.m */; };
 		5585F6B61C1FECE5001E3F83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5585F6B51C1FECE5001E3F83 /* Assets.xcassets */; };
@@ -16,6 +18,10 @@
 
 /* Begin PBXFileReference section */
 		3FF574087CE641A1673F9291 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		55087C861C21923200608DDF /* Colours.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Colours.h; sourceTree = "<group>"; };
+		55087C871C21923200608DDF /* Colours.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Colours.m; sourceTree = "<group>"; };
+		55087C881C21923200608DDF /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		55087C891C21923200608DDF /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		5585F6A61C1FECE5001E3F83 /* Rotary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rotary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5585F6AA1C1FECE5001E3F83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5585F6AC1C1FECE5001E3F83 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -47,6 +53,111 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		55087C821C21856900608DDF /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				55087C921C21926E00608DDF /* BaseClass */,
+				55087C8C1C21925400608DDF /* Model */,
+				55087C8E1C21925400608DDF /* Modual */,
+				55087C851C21923200608DDF /* Category */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		55087C831C2190C400608DDF /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		55087C841C2190CC00608DDF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		55087C851C21923200608DDF /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				55087C861C21923200608DDF /* Colours.h */,
+				55087C871C21923200608DDF /* Colours.m */,
+				55087C881C21923200608DDF /* UIView+Frame.h */,
+				55087C891C21923200608DDF /* UIView+Frame.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		55087C8C1C21925400608DDF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				55087C8D1C21925400608DDF /* HttpRequestManager */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		55087C8D1C21925400608DDF /* HttpRequestManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HttpRequestManager;
+			sourceTree = "<group>";
+		};
+		55087C8E1C21925400608DDF /* Modual */ = {
+			isa = PBXGroup;
+			children = (
+				55087C8F1C21925400608DDF /* Home */,
+				55087C901C21925400608DDF /* Login */,
+				55087C911C21925400608DDF /* Register */,
+			);
+			path = Modual;
+			sourceTree = "<group>";
+		};
+		55087C8F1C21925400608DDF /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		55087C901C21925400608DDF /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		55087C911C21925400608DDF /* Register */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		55087C921C21926E00608DDF /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				55087C931C21926E00608DDF /* BaseController */,
+				55087C941C21926E00608DDF /* TableViewCell */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		55087C931C21926E00608DDF /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseController;
+			sourceTree = "<group>";
+		};
+		55087C941C21926E00608DDF /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
 		5585F69D1C1FECE5001E3F83 = {
 			isa = PBXGroup;
 			children = (
@@ -70,6 +181,9 @@
 			children = (
 				5585F6AC1C1FECE5001E3F83 /* AppDelegate.h */,
 				5585F6AD1C1FECE5001E3F83 /* AppDelegate.m */,
+				55087C841C2190CC00608DDF /* Resources */,
+				55087C831C2190C400608DDF /* Vendor */,
+				55087C821C21856900608DDF /* Class */,
 				5585F6A91C1FECE5001E3F83 /* Supporting Files */,
 			);
 			path = Rotary;
@@ -215,7 +329,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55087C8B1C21923200608DDF /* UIView+Frame.m in Sources */,
 				5585F6AE1C1FECE5001E3F83 /* AppDelegate.m in Sources */,
+				55087C8A1C21923200608DDF /* Colours.m in Sources */,
 				5585F6AB1C1FECE5001E3F83 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
