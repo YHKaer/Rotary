@@ -22,6 +22,10 @@
     
     [self showHomeViewController];
     
+    
+    NSLog(@"hello world");
+    
+    
     return YES;
 }
 
